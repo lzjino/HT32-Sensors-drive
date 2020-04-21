@@ -1,0 +1,166 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.2
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Cortex-M0+, gf, LIC=ATTQ1-C47B2-9UE4U-S6LYE-62JWA-HELDA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\Program Files\keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      CMSIS_AGDI.dll V1.21.0.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+E:\Holtek\HT32_text\HT32.uvprojx
+Project File Date:  04/12/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'D:\Program Files\keil_v5\ARM\ARMCC\Bin'
+Build target 'HT32'
+compiling esp8266.c...
+Bsp\esp8266.h(29): warning:  #1295-D: Deprecated declaration ESP8266_Init - give arg types
+  void ESP8266_Init();
+Bsp\esp8266.c(122): warning:  #223-D: function "strstr" declared implicitly
+                strx=strstr((const char*)COM0_RX_BUF,(const char*)str);
+Bsp\esp8266.c(122): error:  #513: a value of type "int" cannot be assigned to an entity of type "char *"
+                strx=strstr((const char*)COM0_RX_BUF,(const char*)str);
+Bsp\esp8266.c(136): warning:  #223-D: function "u3_printf" declared implicitly
+        u3_printf("%s\r\n",cmd);        //发送命令
+Bsp\esp8266.c(141): warning:  #223-D: function "delay_ms" declared implicitly
+                        delay_ms(10);
+Bsp\esp8266.c(165): warning:  #223-D: function "u3_printf" declared implicitly
+        u3_printf("%s",data);   //发送命令
+Bsp\esp8266.c(170): warning:  #223-D: function "delay_ms" declared implicitly
+                        delay_ms(10);
+Bsp\esp8266.c(188): warning:  #223-D: function "delay_ms" declared implicitly
+        delay_ms(15);                                   //大于串口组帧时间(10ms)
+Bsp\esp8266.c(295): warning:  #940-D: missing return statement at end of non-void function "atk_8266_get_keynum"
+  }
+Bsp\esp8266.c(307): warning:  #223-D: function "strstr" declared implicitly
+                p1=(u8*)strstr((const char*)(p+1),"\"");
+Bsp\esp8266.c(415): error:  #130: expected a "{"
+  }
+Bsp\esp8266.c(468): error:  #268: declaration may not appear after executable statement in block
+  u8 atk_8266_mode_cofig(u8 netpro)
+Bsp\esp8266.c(468): error:  #67: expected a "}"
+  u8 atk_8266_mode_cofig(u8 netpro)
+Bsp\esp8266.c(474): warning:  #223-D: function "mymalloc" declared implicitly
+        p=mymalloc(SRAMIN,32);//申请32个字节的内存
+Bsp\esp8266.c(474): error:  #20: identifier "SRAMIN" is undefined
+        p=mymalloc(SRAMIN,32);//申请32个字节的内存
+Bsp\esp8266.c(474): error:  #513: a value of type "int" cannot be assigned to an entity of type "u8 *"
+        p=mymalloc(SRAMIN,32);//申请32个字节的内存
+Bsp\esp8266.c(479): warning:  #223-D: function "LCD_Clear" declared implicitly
+                LCD_Clear(WHITE);
+Bsp\esp8266.c(479): error:  #20: identifier "WHITE" is undefined
+                LCD_Clear(WHITE);
+Bsp\esp8266.c(480): warning:  #223-D: function "atk_8266_ip_set" declared implicitly
+                if(atk_8266_ip_set("WIFI-AP远端UDP IP设置","UDP模式",(u8*)portnum,ipbuf))goto PRESTA;   //IP输入
+Bsp\esp8266.c(483): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(200);
+Bsp\esp8266.c(489): warning:  #223-D: function "LCD_Clear" declared implicitly
+                LCD_Clear(WHITE);
+Bsp\esp8266.c(489): error:  #20: identifier "WHITE" is undefined
+                LCD_Clear(WHITE);
+Bsp\esp8266.c(490): error:  #20: identifier "POINT_COLOR" is undefined
+                POINT_COLOR=RED;
+Bsp\esp8266.c(490): error:  #20: identifier "RED" is undefined
+                POINT_COLOR=RED;
+Bsp\esp8266.c(491): warning:  #223-D: function "Show_Str_Mid" declared implicitly
+                Show_Str_Mid(0,30,"ATK-ESP WIFI-STA 测试",16,240); 
+Bsp\esp8266.c(492): warning:  #223-D: function "Show_Str" declared implicitly
+                Show_Str(30,50,200,16,"正在配置ATK-ESP模块,请稍等...",12,0);
+Bsp\esp8266.c(493): warning:  #223-D: function "atk_8266_ip_set" declared implicitly
+                if(atk_8266_ip_set("WIFI-AP 远端IP设置","TCP Client",(u8*)portnum,ipbuf))goto PRESTA;   //IP输入
+Bsp\esp8266.c(502): warning:  #223-D: function "KEY_Scan" declared implicitly
+                                key=KEY_Scan(0);
+Bsp\esp8266.c(503): error:  #20: identifier "WKUP_PRES" is undefined
+                                if(key==WKUP_PRES)goto PRESTA;
+Bsp\esp8266.c(507): warning:  #223-D: function "myfree" declared implicitly
+        myfree(SRAMIN,p);
+Bsp\esp8266.c(521): error:  #159: declaration is incompatible with previous "atk_8266_ip_set" (declared at line 480)
+  u8 atk_8266_ip_set(u8* title,u8* mode,u8* port,u8* ip) 
+Bsp\esp8266.c(527): warning:  #223-D: function "LCD_Clear" declared implicitly
+        LCD_Clear(WHITE);  
+Bsp\esp8266.c(527): error:  #20: identifier "WHITE" is undefined
+        LCD_Clear(WHITE);  
+Bsp\esp8266.c(528): error:  #20: identifier "POINT_COLOR" is undefined
+        POINT_COLOR=RED; 
+Bsp\esp8266.c(528): error:  #20: identifier "RED" is undefined
+        POINT_COLOR=RED; 
+Bsp\esp8266.c(529): warning:  #223-D: function "Show_Str_Mid" declared implicitly
+        Show_Str_Mid(0,30,title,16,240);                //显示标题                      
+Bsp\esp8266.c(530): warning:  #223-D: function "Show_Str" declared implicitly
+        Show_Str(30,90,200,16,"工作模式:",16,0);        //工作模式显示
+Bsp\esp8266.c(536): error:  #20: identifier "BLUE" is undefined
+        POINT_COLOR=BLUE;
+Bsp\esp8266.c(558): warning:  #223-D: function "LCD_Fill" declared implicitly
+                        LCD_Fill(30+56,110,239,110+16,WHITE);
+Bsp\esp8266.c(565): error:  #20: identifier "LED0" is undefined
+                        LED0=!LED0;
+Bsp\esp8266.c(567): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(10);
+Bsp\esp8266.c(575): warning:  #223-D: function "LCD_Clear" declared implicitly
+        LCD_Clear(WHITE);
+Bsp\esp8266.c(575): error:  #20: identifier "WHITE" is undefined
+        LCD_Clear(WHITE);
+Bsp\esp8266.c(576): error:  #20: identifier "POINT_COLOR" is undefined
+        POINT_COLOR=RED;
+Bsp\esp8266.c(576): error:  #20: identifier "RED" is undefined
+        POINT_COLOR=RED;
+Bsp\esp8266.c(577): warning:  #223-D: function "Show_Str_Mid" declared implicitly
+        Show_Str_Mid(0,y,"ATK_ESP8266 WIFI模块测试",16,240); 
+Bsp\esp8266.c(578): warning:  #223-D: function "Show_Str" declared implicitly
+        Show_Str(x,y+25,200,16,"请选择:",16,0);                                          
+Bsp\esp8266.c(590): error:  #20: identifier "POINT_COLOR" is undefined
+        POINT_COLOR=RED;
+Bsp\esp8266.c(590): error:  #20: identifier "RED" is undefined
+        POINT_COLOR=RED;
+Bsp\esp8266.c(591): warning:  #223-D: function "Show_Str_Mid" declared implicitly
+        Show_Str_Mid(0,30,"ATK-ESP8266 WIFI模块测试",16,240); 
+Bsp\esp8266.c(596): warning:  #223-D: function "Show_Str" declared implicitly
+                Show_Str(40,55,200,16,"未检测到模块!!!",16,0);
+Bsp\esp8266.c(597): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(800);
+Bsp\esp8266.c(598): warning:  #223-D: function "LCD_Fill" declared implicitly
+                LCD_Fill(40,55,200,55+16,WHITE);
+Bsp\esp8266.c(598): error:  #20: identifier "WHITE" is undefined
+                LCD_Fill(40,55,200,55+16,WHITE);
+Bsp\esp8266.c(605): warning:  #223-D: function "delay_ms" declared implicitly
+                delay_ms(10); 
+Bsp\esp8266.c(607): warning:  #223-D: function "KEY_Scan" declared implicitly
+                key=KEY_Scan(0); 
+Bsp\esp8266.c(610): warning:  #223-D: function "LCD_Clear" declared implicitly
+                        LCD_Clear(WHITE);
+Bsp\esp8266.c(610): error:  #20: identifier "WHITE" is undefined
+                        LCD_Clear(WHITE);
+Bsp\esp8266.c(617): warning:  #223-D: function "atk_8266_apsta_test" declared implicitly
+                                        atk_8266_apsta_test();  //串口以太网测试
+Bsp\esp8266.c(622): warning:  #223-D: function "atk_8266_wifista_test" declared implicitly
+                                        atk_8266_wifista_test();//WIFI STA测试
+Bsp\esp8266.c(625): warning:  #223-D: function "atk_8266_wifiap_test" declared implicitly
+                                        atk_8266_wifiap_test(); //WIFI AP测试
+Bsp\esp8266.c(631): error:  #20: identifier "LED0" is undefined
+                if((timex%20)==0)LED0=!LED0;//200ms闪烁 
+Bsp\esp8266.c: 37 warnings, 25 errors
+".\Objects\HT32.axf" - 25 Error(s), 37 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\Holtek\HT32_text\RTE
+  D:\Program Files\keil_v5\ARM\PACK\Holtek\HT32_DFP\1.0.23\ARM\INC\Holtek\HT32F5xxxx
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>

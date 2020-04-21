@@ -1,0 +1,45 @@
+.\objects\printf.o: library\HT32F5xxxx_Driver\src\printf.c
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32.h
+.\objects\printf.o: .\library\Device\Holtek\HT32F5xxxx\Include\ht32f5xxxx_01.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32_config.h
+.\objects\printf.o: .\library\CMSIS\Include\core_cm0plus.h
+.\objects\printf.o: D:\Program Files\keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\printf.o: .\library\CMSIS\Include\core_cmInstr.h
+.\objects\printf.o: .\library\CMSIS\Include\core_cmFunc.h
+.\objects\printf.o: .\library\Device\Holtek\HT32F5xxxx\Include\system_ht32f5xxxx_01.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_lib.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f52342_52_libcfg.h
+.\objects\printf.o: D:\Program Files\keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\printf.o: ..\HT32_Template\ht32f5xxxx_conf.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_adc.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_bftm.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ckcu.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_cmp.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_crc.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_ebi.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_exti.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_flash.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_gpio.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm_type.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_tm.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2c.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_i2s.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_mctm.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pdma.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_pwrcu.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rstcu.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_rtc.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_sci.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_spi.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usart.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usbd.h
+.\objects\printf.o: ..\HT32_Template\ht32f5xxxx_01_usbdconf.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_usbdinit.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32_retarget_usbdconf.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32f5xxxx_wdt.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32_cm0plus_misc.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32_serial.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32_div.h
+.\objects\printf.o: .\library\HT32F5xxxx_Driver\inc\ht32_rand.h
+.\objects\printf.o: D:\Program Files\keil_v5\ARM\ARMCC\Bin\..\include\string.h
